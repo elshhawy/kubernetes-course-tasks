@@ -14,7 +14,7 @@ kubernetes-course-tasks/
 
 | Task | Topic | Status |
 |---|---|---|
-| Task 1 | Multi-container Pods (Init Container & Sidecar) | In Progress |
+| Task 1 | Multi-container Pods (Init Container & Sidecar) | Completed |
 
 ## Environment
 
