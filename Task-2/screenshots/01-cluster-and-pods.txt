@@ -1,0 +1,11 @@
+===== KUBERNETES NODES =====
+NAME                STATUS   ROLES           AGE     VERSION
+k8s-control-plane   Ready    control-plane   6h15m   v1.37.2
+k8s-worker-1        Ready    <none>          4h44m   v1.37.2
+k8s-worker-2        Ready    <none>          4h44m   v1.37.2
+
+===== APPLICATION PODS =====
+NAME                          READY   STATUS    RESTARTS   AGE   IP           NODE           NOMINATED NODE   READINESS GATES
+mysql-c864f6946-5p9fg         1/1     Running   0          17m   10.244.1.4   k8s-worker-1   <none>           <none>
+webapp-api-776d5df84b-5n2wr   1/1     Running   0          21m   10.244.2.2   k8s-worker-2   <none>           <none>
+webapp-api-776d5df84b-rzsth   1/1     Running   0          21m   10.244.1.3   k8s-worker-1   <none>           <none>
